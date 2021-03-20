@@ -13,8 +13,6 @@ export class CalculadoraPage implements OnInit {
   }
   agregar(numero){
     this.operacion += numero
-
-
   }
   resultado(){
     this.operacion = eval(this.operacion)
